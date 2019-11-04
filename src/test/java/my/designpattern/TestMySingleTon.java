@@ -24,7 +24,7 @@ public class TestMySingleTon {
     for (int i = 0; i < 19; i++) {
       assert (list.get(i).get().equals(list.get(i + 1).get()));
     }
-    System.out.println(":: Test 20 times MySingleTon.getInstance() successful");
+    System.out.println(":: Test 20 times MySingleton.getInstance() successful");
   }
 
   @Test
