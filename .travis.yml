@@ -1,6 +1,10 @@
 language: java
-os: osx
+
 jdk:
   - oraclejdk8
   - oraclejdk9
   - openjdk8
+
+cache:
+  directories:
+  - $HOME/.m2
