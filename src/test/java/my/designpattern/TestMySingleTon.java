@@ -24,11 +24,12 @@ public class TestMySingleTon {
     for (int i = 0; i < 19; i++) {
       assert (list.get(i).get().equals(list.get(i + 1).get()));
     }
+    System.out.println(":: Test 20 times MySingleTon.getInstance() successful");
   }
 
   @Test
   public void testSeveralTimes() throws ExecutionException, InterruptedException {
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 10; i++) {
       testMultiGetInstance();
     }
   }
