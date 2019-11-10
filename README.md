@@ -4,4 +4,12 @@
 
 + Singleton
 
-[MySingleton.java](src/main/java/my/designpattern/MySingleton.java)
+[MySingleton.java](src/main/java/my/designpattern/singleton/MySingleton.java)
+
++ Strategy
+
+[MyContext.java](src/main/java/my/designpattern/strategy/Context.java)
+
++ Proxy
+
+[MyProxy.java](src/main/java/my/designpattern/proxy/MyProxy.java)
