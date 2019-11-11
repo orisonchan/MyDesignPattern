@@ -8,7 +8,7 @@
 
 + Strategy
 
-[MyContext.java](src/main/java/my/designpattern/strategy/Context.java)
+[MyContext.java](src/main/java/my/designpattern/strategy/MyContext.java)
 
 + Proxy
 
